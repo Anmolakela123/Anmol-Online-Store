@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#e05a47"/><stop offset="1" stop-color="#ffb36b"/></linearGradient></defs>
+<rect width="800" height="500" rx="36" fill="#0d1628"/><rect x="70" y="80" width="660" height="340" rx="28" fill="url(#g)" opacity=".92"/>
+<circle cx="150" cy="170" r="46" fill="white" opacity=".9"/><rect x="225" y="140" width="340" height="22" rx="11" fill="white" opacity=".9"/>
+<rect x="225" y="185" width="260" height="16" rx="8" fill="white" opacity=".65"/>
+<text x="110" y="335" font-family="Arial,sans-serif" font-size="42" font-weight="700" fill="white">Driving Licence</text>
+<text x="110" y="375" font-family="Arial,sans-serif" font-size="20" fill="white" opacity=".85">DEMO SERVICE</text></svg>

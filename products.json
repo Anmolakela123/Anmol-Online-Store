@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Aadhaar Service",
+    "price": "₹99",
+    "image": "assets/aadhaar-demo.svg",
+    "category": "Document Services",
+    "description": "Demo Aadhaar-related digital service.",
+    "featured": true,
+    "badge": "Popular",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "PAN Card Service",
+    "price": "₹149",
+    "image": "assets/pan-demo.svg",
+    "category": "Document Services",
+    "description": "Demo PAN card online service.",
+    "featured": true,
+    "badge": "Bestseller",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Voter ID Service",
+    "price": "₹99",
+    "image": "assets/voter-demo.svg",
+    "category": "Document Services",
+    "description": "Demo voter ID related online service.",
+    "featured": false,
+    "badge": "New",
+    "active": true
+  },
+  {
+    "id": 4,
+    "name": "Driving Licence Service",
+    "price": "₹199",
+    "image": "assets/dl-demo.svg",
+    "category": "Online Services",
+    "description": "Demo driving licence related online service.",
+    "featured": false,
+    "badge": "",
+    "active": true
+  }
+]
