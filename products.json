@@ -1,0 +1,98 @@
+[
+  {
+    "id": 101,
+    "name": "खतियान निकालें",
+    "price": "₹500",
+    "image": "assets/khatian.svg",
+    "category": "भूमि सेवाएं",
+    "description": "पुराना से पुराना खतियान निकलवाने की सेवा। केवल ₹500 में।",
+    "featured": true,
+    "badge": "TOP",
+    "active": true,
+    "landForm": true,
+    "submitLabel": "खतियान निकालें"
+  },
+  {
+    "id": 102,
+    "name": "केवला निकालें",
+    "price": "₹100 से",
+    "image": "assets/receipt.svg",
+    "category": "भूमि सेवाएं",
+    "description": "जमीन का केवला निकालने/प्राप्त करने की सेवा।",
+    "featured": true,
+    "badge": "TOP",
+    "active": true,
+    "landForm": true,
+    "submitLabel": "केवला निकालें"
+  },
+  {
+    "id": 103,
+    "name": "जमाबंदी निकालें",
+    "price": "₹100 से",
+    "image": "assets/jamabandi-search.svg",
+    "category": "भूमि सेवाएं",
+    "description": "जमीन की जमाबंदी निकालने/प्राप्त करने की सेवा।",
+    "featured": true,
+    "badge": "TOP",
+    "active": true,
+    "landForm": true,
+    "submitLabel": "जमाबंदी निकालें"
+  },
+  {
+    "id": 104,
+    "name": "रसीद कटाएँ",
+    "price": "₹100 से",
+    "image": "assets/jamabandi-copy.svg",
+    "category": "भूमि सेवाएं",
+    "description": "जमीन की रसीद कटाने की सेवा।",
+    "featured": true,
+    "badge": "TOP",
+    "active": true,
+    "landForm": true,
+    "submitLabel": "रसीद कटाएँ"
+  },
+  {
+    "id": 201,
+    "name": "Aadhaar Service",
+    "price": "₹99",
+    "image": "assets/aadhaar-demo.svg",
+    "category": "Document Services",
+    "description": "Demo Aadhaar-related digital service.",
+    "featured": false,
+    "badge": "",
+    "active": true
+  },
+  {
+    "id": 202,
+    "name": "PAN Card Service",
+    "price": "₹149",
+    "image": "assets/pan-demo.svg",
+    "category": "Document Services",
+    "description": "Demo PAN card online service.",
+    "featured": false,
+    "badge": "",
+    "active": true
+  },
+  {
+    "id": 203,
+    "name": "Voter ID Service",
+    "price": "₹99",
+    "image": "assets/voter-demo.svg",
+    "category": "Document Services",
+    "description": "Demo voter ID related online service.",
+    "featured": false,
+    "badge": "New",
+    "active": true
+  },
+  {
+    "id": 204,
+    "name": "Driving Licence Service",
+    "price": "₹199",
+    "image": "assets/dl-demo.svg",
+    "category": "Online Services",
+    "description": "Demo driving licence related online service.",
+    "featured": false,
+    "badge": "",
+    "active": true
+  }
+]

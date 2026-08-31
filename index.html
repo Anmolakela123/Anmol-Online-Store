@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="hi">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080d19"><title>Anmol Online Store</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="#"><img src="assets/logo.png" alt="Anmol Online Store"><span><b>ANMOL</b><small>ONLINE STORE</small></span></a>
+<nav><a href="#land">भूमि सेवाएं</a><a href="#services">सभी सेवाएं</a><a href="#support">Support</a></nav>
+</header>
+<main>
+<section class="hero"><img class="hero-bg" src="assets/banner.png" alt=""><div class="hero-overlay"></div>
+<div class="hero-copy"><span class="eyebrow">DIGITAL PRODUCTS • ONLINE SERVICES</span><h1>Your Digital Needs,<br><em>Just One Click Away.</em></h1><p>Trusted digital services. Order directly on WhatsApp.</p><a class="hero-btn" href="#land">Explore Services →</a></div></section>
+
+<section id="land" class="land-section">
+<div class="section-head"><div><span class="section-kicker">⭐ PRIORITY SERVICES</span><h2>भूमि से संबंधित सेवाएं</h2><p class="section-sub">खतियान, केवला, जमाबंदी और रसीद से जुड़ी सेवाएं — सबसे ऊपर।</p></div></div>
+<div id="landGrid" class="land-grid"></div>
+</section>
+
+<section class="toolbar" id="services"><div><span class="section-kicker">ANMOL ONLINE STORE</span><h2>सभी सेवाएं</h2></div>
+<div class="tools"><input id="search" type="search" placeholder="Search services..."><select id="category"><option value="all">All Categories</option></select></div></section>
+<section class="section-block"><div id="allGrid" class="product-grid"></div><div id="empty" class="empty hidden">No services found.</div></section>
+</main>
+
+<div id="detailModal" class="modal hidden" aria-hidden="true"><div class="modal-card">
+<button class="close" id="closeModal">×</button><img id="modalImage" src="" alt=""><div class="modal-info">
+<span id="modalBadge" class="badge"></span><h2 id="modalName"></h2><div id="modalPrice" class="price"></div><p id="modalCategory" class="category-label"></p><p id="modalDescription"></p>
+<div id="landFormWrap" class="land-form-wrap hidden">
+<div class="form-title">सेवा के लिए जानकारी भरें</div>
+<form id="landForm">
+<div class="form-grid two"><label>Customer Name<input name="customerName" required placeholder="अपना नाम"></label><label>Customer Mobile Number<input name="customerMobile" required inputmode="numeric" pattern="[0-9]{10}" maxlength="10" placeholder="10 अंकों का मोबाइल नंबर"></label></div>
+<div class="form-grid"><label>रैयत का नाम<input name="raiyatName" required></label><label>खाता संख्या<input name="khataNo"></label><label>खेसरा संख्या<input name="khesraNo"></label><label>भाग संख्या (पृष्ठ संख्या)<input name="bhagPage"></label><label>मौजा<input name="mauja"></label><label>हल्का<input name="halka"></label><label>जिला<input name="district"></label><label>राज्य<input name="state" value="Bihar"></label></div>
+<label>अन्य जानकारी<textarea name="otherInfo" rows="3" placeholder="कोई अतिरिक्त जानकारी..."></textarea></label>
+<button id="landSubmit" class="order-btn" type="submit">सेवा की जानकारी WhatsApp पर भेजें</button>
+</form></div>
+<button id="modalOrder" class="order-btn">Order Now on WhatsApp</button>
+</div></div></div>
+
+<div id="channelPopup" class="channel-popup hidden"><button id="closePopup" class="popup-close">×</button><div class="wa-icon">◉</div><div><strong>WhatsApp Channel</strong><p>नई सेवाओं और ऑफर्स के अपडेट पाएं।</p></div><a id="channelLink" target="_blank" rel="noopener">Join</a></div>
+<footer id="support"><div class="footer-brand"><strong>Anmol Online Store</strong><span>Digital Products & Online Services</span></div><div class="support-links"><a id="tgLink" target="_blank">✈️ Telegram Support</a><a id="waChannel" target="_blank">📢 WhatsApp Channel</a></div><small>© 2026 Anmol Online Store. All rights reserved.</small></footer>
+<a id="floatWa" class="float-wa" target="_blank" aria-label="WhatsApp">◔</a>
+<script src="script.js"></script></body></html>
