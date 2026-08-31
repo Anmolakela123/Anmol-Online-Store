@@ -3,7 +3,7 @@
     "id": 101,
     "name": "खतियान निकालें",
     "price": "₹500",
-    "image": "assets/khatian.svg",
+    "image": "assets/khatian.png",
     "category": "भूमि सेवाएं",
     "description": "पुराना से पुराना खतियान निकलवाने की सेवा। केवल ₹500 में।",
     "featured": true,
