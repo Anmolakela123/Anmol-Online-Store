@@ -15,8 +15,8 @@
   {
     "id": 102,
     "name": "केवला निकालें",
-    "price": "₹100 से",
-    "image": "assets/receipt.svg",
+    "price": "₹500 से",
+    "image": "assets/receipt.png",
     "category": "भूमि सेवाएं",
     "description": "जमीन का केवला निकालने/प्राप्त करने की सेवा।",
     "featured": true,
